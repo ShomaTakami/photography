@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Allan|Amita&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.site-main {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: whitesmoke;
+}
+
+/* mail icon  */
+.icon {
+  color: black;
+}
+.icon:hover {
+  cursor: pointer;
+  color: #ff0000;
+}
+.mail-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  /* border: red 1px solid; */
+}
+
+/* --------home area  */
+.home {
+  background: whitesmoke;
+}
+
+.typography {
+  width: 60%;
+  /* border: blue 1px solid; */
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+}
+.vertical {
+  float: left;
+  border-left: 5px #ff0000 solid;
+  padding: 4rem;
+  margin: 0 0 3rem 10rem;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  writing-mode: tb-rl;
+  white-space: nowrap;
+  width: 20px;
+  font-size: 30px;
+}
+.vertical > a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.9s ease;
+}
+.vertical > a:hover {
+  color: red;
+}
+
+.about-text {
+  font-family: "Allan", cursive;
+  /* border: red 1px solid; */
+  text-align: center;
+  margin: 5rem 27rem 0 auto;
+  float: right;
+  width: 40%;
+  height: 40%;
+  font-size: 20px;
+  line-height: 2;
+}
+
+/* end--------home area  */
+
+/* workarea */
+
+.work {
+  position: relative;
+  background: whitesmoke;
+}
+.img-area {
+  /* border: red 1px solid; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 55%;
+}
+.img-area > img {
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 4px 8px rgba(22, 22, 22, 0.137);
+}
+
+.red-box {
+  font-family: "Amita", cursive;
+  width: 220px;
+  height: 220px;
+  background: red;
+  text-align: center;
+  line-height: 220px;
+  color: white;
+  z-index: 50;
+  position: absolute;
+  bottom: 20px;
+  left: 300px;
+  box-shadow: 4px 8px rgba(22, 22, 22, 0.137);
+}
+
+/* end--workarea */
+/* constactarea */
+.contact {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0.452) 0%,
+    #f5f5f5 70%
+  );
+  position: relative;
+}
+
+.thanks-text {
+  font-family: "Allan", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+.post-img {
+  /* border: red 1px solid; */
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  bottom: 20px;
+  left: 47.5vw;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+/* end--constactarea */

@@ -1,0 +1,33 @@
+<svg width="224" height="219" viewBox="0 0 224 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="post">
+<g id="shadow">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="84" y="150" width="132" height="49">
+<rect id="Rectangle 10" x="84" y="150" width="132" height="49" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<ellipse id="Ellipse 3" cx="94.1373" cy="186.274" rx="92.2488" ry="12" transform="rotate(-5.72379 94.1373 186.274)" fill="#655A5A" fill-opacity="0.45"/>
+</g>
+</g>
+<g id="object">
+<ellipse id="Ellipse 1" cx="45.0001" cy="13.5" rx="41" ry="13.5" fill="#F34A4A"/>
+<rect id="Rectangle 2" x="7.00006" y="10" width="77" height="189" fill="#F34A4A"/>
+<ellipse id="Ellipse 2" cx="45.0001" cy="38.5" rx="45" ry="8.5" fill="#F34A4A"/>
+<rect id="Rectangle 3" x="7.00006" y="17" width="77" height="5" fill="#F95F5F"/>
+<g id="Rectangle 4" style="mix-blend-mode:overlay">
+<rect x="1.00006" y="36" width="87" height="5" fill="#FFC4C4"/>
+</g>
+<g id="Rectangle 5" style="mix-blend-mode:soft-light">
+<rect x="28.0001" y="52" width="33" height="3" fill="#FFC3C3"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:soft-light">
+<rect x="28.0001" y="61" width="33" height="3" fill="#FFC3C3"/>
+</g>
+<rect id="Rectangle 7" x="28.0001" y="55" width="33" height="6" fill="#484646"/>
+<rect id="Rectangle 8" x="20.0001" y="91" width="52" height="3" fill="#FFC3C3"/>
+<rect id="Rectangle 9" x="25.0001" y="94" width="42" height="21" fill="#EBEBEB"/>
+<ellipse id="Ellipse 4" cx="10.0001" cy="167" rx="29" ry="2" transform="rotate(90 10.0001 167)" fill="white" fill-opacity="0.95"/>
+<ellipse id="Ellipse 5" cx="10.0001" cy="125" rx="6" ry="1" transform="rotate(90 10.0001 125)" fill="white" fill-opacity="0.95"/>
+<ellipse id="Ellipse 6" cx="9.74924" cy="11.5307" rx="3" ry="5" transform="rotate(55.0472 9.74924 11.5307)" fill="white" fill-opacity="0.88"/>
+</g>
+</g>
+</svg>
