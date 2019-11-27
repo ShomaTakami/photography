@@ -87,10 +87,9 @@
 
 .work {
   position: relative;
-  background: whitesmoke;
+  /* border: 1px solid red; */
 }
 .img-area {
-  /* border: red 1px solid; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -169,7 +168,7 @@
   position: fixed;
   bottom: 28vh;
   right: 35vw;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #ffffff;
   z-index: 9;
 }
 
@@ -177,7 +176,21 @@
 .form-container {
   max-width: 550px;
   padding: 10px;
-  background-color: white;
+  background: -webkit-repeating-linear-gradient(
+    -45deg,
+    #f0f8ff,
+    #f0f8ff 3px,
+    #e9f4ff 3px,
+    #e9f4ff 7px
+  );
+  background: repeating-linear-gradient(
+    -45deg,
+    #f0f8ff,
+    #f0f8ff 3px,
+    #e9f4ff 3px,
+    #e9f4ff 7px
+  );
+  border: 7px dotted #e94c4c;
 }
 
 /* Full-width input fields */
@@ -187,13 +200,40 @@
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
-  background: #f1f1f1;
+  background: -webkit-repeating-linear-gradient(
+    -45deg,
+    #f0f8ff,
+    #f0f8ff 3px,
+    #e9f4ff 3px,
+    #e9f4ff 7px
+  );
+  background: repeating-linear-gradient(
+    -45deg,
+    #f0f8ff,
+    #f0f8ff 3px,
+    #e9f4ff 3px,
+    #e9f4ff 7px
+  );
+  outline: none;
 }
 
 /* When the inputs get focus, do something */
 .form-container input[type="text"]:focus,
 .form-container textarea[name="comment"]:focus {
-  background-color: #ddd;
+  background: -webkit-repeating-linear-gradient(
+    -45deg,
+    #dce3e9,
+    #dce3e9 3px,
+    #d5dfe9 3px,
+    #d5dfe9 7px
+  );
+  background: repeating-linear-gradient(
+    -45deg,
+    #dce3e9,
+    #dce3e9 3px,
+    #d5dfe9 3px,
+    #d5dfe9 7px
+  );
   outline: none;
 }
 
@@ -218,5 +258,12 @@
 .form-container .btn:hover,
 .open-button:hover {
   opacity: 1;
+}
+
+.font-allan {
+  font-family: "Allan", cursive;
+}
+.contact-user {
+  font-size: 20px;
 }
 /* -----end pop up ---------- */
