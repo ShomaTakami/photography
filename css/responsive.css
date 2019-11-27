@@ -137,9 +137,10 @@
     width: 100%;
   }
   .form-popup {
-    right: 1vw;
-    max-width: 400px;
-    max-height: 400px;
+    top: 5%;
+    left: 10%;
+    max-width: 300px;
+    max-height: 200px;
   }
   .form-container {
     max-width: 400px;
