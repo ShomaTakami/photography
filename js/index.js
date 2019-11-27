@@ -27,3 +27,12 @@ function topButton(elmId, duration) {
 
 // 使用例 トップに戻るボタンの id とアニメーションにかかる時間をミリ秒で指定
 topButton("return-top", 550);
+
+// ---------pop up------------
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}

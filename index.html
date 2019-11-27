@@ -24,15 +24,12 @@
           <a href="#work-area">See Myworks</a>
         </div>
         <div class="about-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed delectus
-          fuga commodi dolor culpa doloremque sequi. Dignissimos id esse quasi
-          distinctio cum architecto vero Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ex, laudantium. Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Non laboriosam quos nulla maxime tenetur
-          magnam quaerat doloremque itaque laudantium, cumque debitis aperiam
-          vitae nemo asperiores molestias magni consectetur dolore eos quia hic?
-          Quia ea beatae tempora amet voluptate dolorem blanditiis consequuntur?
-          Odit illo dicta distinctio.
+          I am located in Vancouver BC, Canada.<br />
+          Originaly from Gifu, Japan. Born in 1995.<br />
+          I have been traveling and staying at UK, Australia, Thailand, New
+          Zealand, Canada.<br />
+          At This website, You can check my photography works.<br />
+          Enjoy.
         </div>
       </div>
     </section>
@@ -69,8 +66,35 @@
         <a class="icon" href="#" id="return-top">
           <i class="fas fa-arrow-up fa-2x arrow"></i
         ></a>
-        <div class="post-img">
-          <img src="./img/post.svg" alt="post" id="post" />
+
+        <!-- -------pop up-------- -->
+        <button class="open-button" onclick="openForm()">
+          <div class="post-img">
+            <img src="./img/post.svg" alt="post" id="post" />
+          </div>
+        </button>
+        <div class="form-popup" id="myForm">
+          <form class="form-container" method="POST">
+            <h1>Dear Shoma Takami,</h1>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="tell me whta you think"
+            ></textarea>
+            <label for="email"><b>From</b></label>
+            <input
+              type="text"
+              placeholder="Enter Your Email"
+              name="email"
+              required
+            />
+            <button type="submit" class="btn" value="">Post</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">
+              Close
+            </button>
+          </form>
         </div>
       </footer>
     </section>
