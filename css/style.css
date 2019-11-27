@@ -169,7 +169,7 @@
   bottom: 28vh;
   right: 35vw;
   border: 3px solid #ffffff;
-  z-index: 9;
+  z-index: 70;
 }
 
 /* Add styles to the form container */
@@ -267,3 +267,141 @@
   font-size: 20px;
 }
 /* -----end pop up ---------- */
+
+@media only screen and (max-width: 1400px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .site-main {
+    width: 100vw;
+    height: 70vh;
+  }
+  /* .icon,
+  .mail-icon {
+    display: none;
+  } */
+  .typography {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* border: blue 1px solid; */
+  }
+  .typography > img {
+    width: 100%;
+  }
+  .about-text {
+    float: right;
+    margin: 1.2rem 6rem;
+    font-size: 30px;
+    /* border: blue 1px solid; */
+    width: 75%;
+    text-align: center;
+  }
+  /* ----work area ------ */
+  .img-area {
+    width: 75%;
+  }
+  .red-box {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    top: 120px;
+    left: 75px;
+  }
+  .post-img {
+    left: 44.2vw;
+  }
+  .form-popup {
+    right: 24vw;
+  }
+}
+@media screen and (max-width: 959px) {
+  .vertical {
+    padding: 3rem;
+    margin: 0 0 2rem 4.2rem;
+  }
+  .about-text {
+    margin: 0.3rem 4.2rem 0.3rem 1rem;
+    font-size: 23px;
+    width: 75%;
+    text-align: center;
+  }
+  .thanks-text {
+    font-size: 36px;
+  }
+  .form-popup {
+    right: 14vw;
+  }
+}
+@media screen and (max-width: 559px) {
+  .site-main {
+    width: 100vw;
+    height: 80vh;
+  }
+  .mail-icon {
+    top: 3px;
+    right: 3px;
+  }
+  .arrow {
+    bottom: 3px;
+    left: 3px;
+  }
+  .small-work {
+    height: 40vh;
+  }
+  .vertical {
+    text-align: center;
+    padding: 0 2rem;
+    margin: 0 0 0 1rem;
+    border: 2px #ff0000 solid;
+    line-height: 10px;
+    width: 4px;
+    height: 200px;
+    font-size: 15px;
+  }
+  .about-text {
+    margin: 0.3rem 4.2rem 0.3rem 1rem;
+    font-size: 20px;
+    width: 75%;
+    text-align: center;
+  }
+  .img-area {
+    width: 75%;
+    height: 100%;
+  }
+  .red-box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    top: 80px;
+    left: 10px;
+    font-size: 10px;
+  }
+  .thanks-text {
+    font-size: 15px;
+  }
+  .post-img {
+    left: 43vw;
+    width: 120px;
+    height: 120px;
+  }
+  .post-img > img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .form-popup {
+    right: 1vw;
+  }
+  .form-container {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .form-popup {
+    right: 1vw;
+  }
+  .form-container {
+    max-width: 400px;
+  }
+}
