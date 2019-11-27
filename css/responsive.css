@@ -138,12 +138,14 @@
   }
   .form-popup {
     right: 1vw;
+    max-width: 400px;
+    max-height: 400px;
   }
   .form-container {
     max-width: 400px;
   }
   .contact {
-    height: 40vh;
+    height: 60vh;
   }
 }
 @media screen and (max-width: 321px) {
