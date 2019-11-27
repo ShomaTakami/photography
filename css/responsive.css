@@ -137,13 +137,11 @@
     width: 100%;
   }
   .form-popup {
-    top: 3.5%;
-    left: 10%;
-    max-width: 300px;
+    bottom: 0;
+    right: 0;
   }
   .form-container {
-    max-width: 400px;
-    max-height: 550px;
+    width: 100vw;
   }
   .contact {
     height: 60vh;
