@@ -72,6 +72,9 @@
   }
 }
 @media screen and (max-width: 559px) {
+  #home-area {
+    height: 50vh;
+  }
   .typography {
     width: 99%;
     height: 30%;
@@ -84,7 +87,9 @@
     width: 100vw;
     height: 80vh;
   }
-
+  .work {
+    height: 15vh;
+  }
   .mail-icon {
     top: 3px;
     right: 3px;
@@ -144,10 +149,16 @@
     width: 100vw;
   }
   .contact {
-    height: 60vh;
+    height: 30vh;
   }
 }
 @media screen and (max-width: 321px) {
+  #home-area {
+    height: 65vh;
+  }
+  .work {
+    height: 25vh;
+  }
   .typography {
     width: 99%;
     height: 20%;
@@ -156,6 +167,9 @@
     font-size: 17px;
     width: 75%;
     text-align: center;
+  }
+  .contact {
+    height: 30vh;
   }
   .form-popup {
     right: 1vw;
