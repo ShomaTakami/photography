@@ -73,7 +73,7 @@
 }
 @media screen and (max-width: 559px) {
   #home-area {
-    height: 50vh;
+    height: 90vh;
   }
   .typography {
     width: 99%;
@@ -130,7 +130,8 @@
     font-size: 10px;
   }
   .thanks-text {
-    font-size: 15px;
+    top: 15px;
+    font-size: 17px;
   }
   .post-img {
     left: 43vw;
@@ -154,14 +155,21 @@
 }
 @media screen and (max-width: 321px) {
   #home-area {
-    height: 65vh;
+    height: 95vh;
   }
   .work {
-    height: 25vh;
+    height: 50vh;
   }
   .typography {
     width: 99%;
     height: 20%;
+  }
+  .typography svg {
+    top: 5px;
+    right: 5px;
+  }
+  .content {
+    margin-top: 10px;
   }
   .about-text {
     font-size: 17px;
@@ -169,7 +177,10 @@
     text-align: center;
   }
   .contact {
-    height: 30vh;
+    height: 48vh;
+  }
+  .thanks-text {
+    top: 0;
   }
   .form-popup {
     right: 1vw;
