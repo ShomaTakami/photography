@@ -12,15 +12,20 @@
     display: none;
   } */
   .typography {
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0;
     width: 99%;
     /* border: blue 1px solid; */
   }
-  .typography > img {
+  .typography svg {
+    z-index: 10;
+    margin: 20px;
+    /* border: blue 1px solid; */
+  }
+  /* .typography > img {
     width: 100%;
     height: 500px;
-  }
+  } */
   .about-text {
     float: right;
     margin: 1.2rem 6rem;
