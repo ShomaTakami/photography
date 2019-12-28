@@ -24,7 +24,7 @@
   .about-text {
     float: right;
     margin: 1.2rem 6rem;
-    font-size: 30px;
+    /* font-size: 30px; */
     /* border: blue 1px solid; */
     width: 75%;
     text-align: center;
@@ -39,6 +39,7 @@
     line-height: 200px;
     top: 120px;
     left: 75px;
+    /* font-size: 1.6rem; */
   }
   .post-img {
     left: 44.2vw;
@@ -60,12 +61,12 @@
   }
   .about-text {
     margin: 0.3rem 4.2rem 0.3rem 1rem;
-    font-size: 23px;
+    /* font-size: 23px; */
     width: 75%;
     text-align: center;
   }
   .thanks-text {
-    font-size: 36px;
+    /* font-size: 36px; */
   }
   .form-popup {
     right: 14vw;
@@ -73,7 +74,7 @@
 }
 @media screen and (max-width: 559px) {
   #home-area {
-    height: 90vh;
+    height: 69vh;
   }
   .typography {
     width: 99%;
@@ -109,11 +110,11 @@
     line-height: 10px;
     width: 4px;
     height: 200px;
-    font-size: 15px;
+    /* font-size: 15px; */
   }
   .about-text {
     margin: 0.3rem 4.2rem 0.3rem 1rem;
-    font-size: 20px;
+    /* font-size: 20px; */
     width: 75%;
     text-align: center;
   }
@@ -127,11 +128,11 @@
     line-height: 100px;
     top: 80px;
     left: 10px;
-    font-size: 10px;
+    /* font-size: 10px; */
   }
   .thanks-text {
     top: 15px;
-    font-size: 17px;
+    /* font-size: 17px; */
   }
   .post-img {
     left: 43vw;
@@ -172,7 +173,7 @@
     margin-top: 10px;
   }
   .about-text {
-    font-size: 17px;
+    /* font-size: 17px; */
     width: 75%;
     text-align: center;
   }
